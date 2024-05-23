@@ -2,10 +2,9 @@ package com.jimbo.clicker.ui
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxWidth
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
@@ -26,6 +25,7 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
+import com.jimbo.clicker.BuildConfig
 import com.jimbo.clicker.R
 import com.jimbo.clicker.util.drawNinePatch
 
@@ -78,10 +78,23 @@ fun SettingsDialog(onDismissRequest: () -> Unit, onResetData: () -> Unit) {
                 onClick = { onResetData() }) {
                 Text(text = stringResource(R.string.reset_data))
             }
-            Spacer(modifier = Modifier.height(5.dp))
 
-            Text(text = stringResource(R.string.copyright))
-            Text(text = stringResource(R.string.app_version))
+            Column(
+                modifier = Modifier.padding(10.dp),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                Text(
+                    textAlign = TextAlign.Center,
+                    color = Color.White,
+                    text = stringResource(R.string.version, BuildConfig.VERSION_NAME)
+                )
+                Text(
+                    textAlign = TextAlign.Center,
+                    color = Color.White,
+                    text = stringResource(R.string.copyright)
+                )
+            }
+
         }
     }
 }

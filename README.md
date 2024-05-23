@@ -2,7 +2,7 @@
 
 This project is a learning experience for me to explore Kotlin, Compose and Git. Spirit Clicker is a game inspired by the infamous Cookie Clicker we all knew on browsers (also available on mobile now). The goal for me is to be able to learn Kotlin while coding and to present the project to a possible mentor or company.
 
-<img src="screenshots/sc1.png" width="25%" />     <img src="screenshots/sc2.png" width="25%" />     <img src="screenshots/sc3.png" width="25%" />     <img src="screenshots/sc4.png" width="25%" />
+<img src="screenshots/sc1.png" width="20%" />     <img src="screenshots/sc2.png" width="20%" />     <img src="screenshots/sc3.png" width="20%" />     <img src="screenshots/sc4.png" width="20%" />
 
 ## :warning: Requirements
 You'll need an Android device or emulator with API 31+ (Android 12+)

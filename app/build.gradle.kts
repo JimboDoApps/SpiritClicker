@@ -11,18 +11,21 @@ android {
     namespace = "com.jimbo.clicker"
     compileSdk = 34
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     defaultConfig {
         applicationId = "com.jimbo.clicker"
         minSdk = 31
         targetSdk = 34
         versionCode = 3
-        versionName = "0.1" // Don't forget to change the version name in the string file
+        versionName = "0.1.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
             useSupportLibrary = true
         }
-        versionNameSuffix = "Alpha"
     }
 
     buildTypes {
