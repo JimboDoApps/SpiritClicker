@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Spirit Clicker</string>
+    <string name="description">Jeu de clic sur le theme des esprits</string>
+    <string name="equipments">Équipements</string>
+    <string name="spirits">Esprits</string>
+    <string name="stats">Stats</string>
+    <string name="click_number">Nombre de clics: %1$s</string>
+    <string name="essence_count">Essences collectées: %1$s</string>
+    <string name="settings">Paramètres</string>
+    <string name="reset_data">Réinitialiser votre progression</string>
+    <string name="confirm">Valider</string>
+    <string name="dismiss">Refuser</string>
+    <string name="reset_alert_text">Tu es sur le point de réinitialiser ta progression, es-tu sûr de vouloir faire ça ?</string>
+    <string name="upgrade_1_title">Attrape-brins</string>
+    <string name="upgrade_1_description">Un filet délicat tissé à partir du clair de lune qui capture les brins errants, amplifiant votre énergie spirituelle de base.</string>
+    <string name="level">Niveau: %1$s</string>
+    <string name="revenue_per_click">%1$s /clic</string>
+    <string name="spirit_1_title">Wispy</string>
+    <string name="spirit_1_description">Un esprit errant tombé dans votre filet. Il semble t\'apprecier maintenant.</string>
+    <string name="copyright">Spirit Clicker créer par JimboDoApps</string>
+    <string name="app_version">0.1</string>
+</resources>

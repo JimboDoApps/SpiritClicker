@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name" translatable="false">Spirit Clicker</string>
+    <string name="description">Spirit themed clicker game</string>
+    <string name="equipments">Equipments</string>
+    <string name="spirits">Spirits</string>
+    <string name="stats">Stats</string>
+    <string name="click_number">Number of clicks: %1$s</string>
+    <string name="essence_count">Essences collected: %1$s</string>
+    <string name="settings">Settings</string>
+    <string name="reset_data">Reset all your progress</string>
+    <string name="confirm">Confirm</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="reset_alert_text">You are about to erase all your progress from the game, are you sure about that ?</string>
+    <string name="upgrade_1_title">Wisp Catcher</string>
+    <string name="upgrade_1_description">A delicate net woven from moonlight that captures wandering wisps, amplifying your base spirit energy.</string>
+    <string name="level">Level: %1$s</string>
+    <string name="revenue_per_click">%1$s /click</string>
+    <string name="spirit_1_title">Wispy</string>
+    <string name="spirit_1_description">Wandering Wisp caught within your net. It seems to like you now</string>
+    <string name="copyright">Spirit Clicker made by JimboDoApps</string>
+    <string name="app_version" translatable="false">0.1</string>
+</resources>
